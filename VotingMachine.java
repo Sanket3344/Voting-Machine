@@ -66,10 +66,15 @@ class VotingMachine
 		else if(sena>bjp && sena>aap && sena>mns && sena>congress && sena>nota)
 			System.out.println("SHIVSENA HAS WON THE ELECTION BY "+ sena + " VOTES");
 
-		else
+		else if(nota>bjp && nota>aap && nota>mns && nota>congress && nota>sena)
 			System.out.println("NOTA HAS WON THE ELECTION BY "+ nota + " VOTES");
+
+		else 
+			System.out.println("SORRY BUT NO ONE IS WIN THE ELECTION ");
 
 		
 
 	}
 }
+
+// Code by Sanket R. Pandit
